@@ -2,9 +2,11 @@
 
 A professional, interactive, and visual workflow builder application developed with React and Vite. This application allows users to design logic flows with Actions and Conditions, featuring a premium UI, undo/redo capabilities, and robust state management.
 
-![Workflow Builder](./public/screenshot.png)
+###  [Live Demo](https://vercel.com/anshu-dinesh-dubeys-projects/workflow-builder/6YMAfTa2zjThVdbXBpgGHkcqi6eV)
 
-## ✨ Features
+[Workflow Builder](./public/screenshot.png)
+
+##  Features
 
 - **Visual Canvas**: Interactive infinite-like canvas with a professional dot-grid background.
 - **Node Management**:
@@ -19,7 +21,7 @@ A professional, interactive, and visual workflow builder application developed w
   - Smooth hover states and transitions.
 - **Save Functionality**: "Save" button logs the serialized workflow JSON to the console (extensible for backend integration).
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Framework**: React 18
 - **Build Tool**: Vite
@@ -28,7 +30,7 @@ A professional, interactive, and visual workflow builder application developed w
 - **State Management**: React Context API (with custom History stack)
 - **UUID**: Native `crypto.randomUUID()` for unique node IDs
 
-## 🚀 Getting Started
+##  Getting Started
 
 Follow these steps to set up the project locally.
 
@@ -57,7 +59,7 @@ Follow these steps to set up the project locally.
 4. **Open in Browser**:
    Navigate to `http://localhost:5173` to start building workflows.
 
-## 📖 Usage Guide
+##  Usage Guide
 
 1. **Adding Steps**: Click the **(+)** button on any empty connector line. Select **Action** (linear step) or **Condition** (branches into True/False).
 2. **Editing**: Click on any node's text label to rename it. Press Enter or click away to save.
@@ -65,7 +67,7 @@ Follow these steps to set up the project locally.
 4. **Undo/Redo**: Use the toolbar buttons at the top to revert or re-apply changes.
 5. **Saving**: Click the **Save Workflow** button to output the current JSON structure to the browser developer console (F12).
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -84,7 +86,7 @@ src/
 └── main.jsx               # Entry point
 ```
 
-## 🧩 Data Structure
+##  Data Structure
 
 The workflow is stored as a normalized flat object for O(1) lookups:
 
