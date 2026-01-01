@@ -2,9 +2,9 @@
 
 A professional, interactive, and visual workflow builder application developed with React and Vite. This application allows users to design logic flows with Actions and Conditions, featuring a premium UI, undo/redo capabilities, and robust state management.
 
-###  [Live Demo](https://vercel.com/anshu-dinesh-dubeys-projects/workflow-builder/6YMAfTa2zjThVdbXBpgGHkcqi6eV)
+###  [Live Demo](https://workflow-builder-mu.vercel.app/)
 
-[Workflow Builder](./public/screenshot.png)
+![Workflow Builder](./public/screenshot.png)
 
 ##  Features
 
